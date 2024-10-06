@@ -13,7 +13,7 @@ Project:	Winkle
 	++Form++
 	++Form-Wizard++
 	++Product Deatails*++
-	++Product Cart++	
+	++Product Cart++
 	++Popover++
 	++Typerhead++
 	++Editors++
@@ -53,7 +53,7 @@ Project:	Winkle
 	++Vecotor Map++
 	++Progressbar++
 	++Search Bar++
-	++Chat UI++	
+	++Chat UI++
 	++Widgets++
 	++Profile++
 	++Followers++
@@ -61,7 +61,7 @@ Project:	Winkle
 	++Timeline++
 	++Caledar++
 	++Todo List++
-	++Activity++  
+	++Activity++
 	++Message Box++
 	++Inbox++
 	++Contact Cards++
@@ -76,7 +76,7 @@ Project:	Winkle
 /****************************/
 /** Imports **/
 /****************************/
-@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+/* @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
 @import url(../../../vendors/bower_components/bootstrap/dist/css/bootstrap.min.css);
 @import url(font-awesome.min.css);
 @import url(themify-icons.css);
@@ -91,7 +91,7 @@ Project:	Winkle
 @import url(../../../vendors/bower_components/owl.carousel/dist/assets/owl.carousel.min.css);
 @import url(../../../vendors/bower_components/owl.carousel/dist/assets/owl.theme.default.min.css);
 @import url(lightgallery.css);
-@import url(../../../vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css);
+@import url(../../../vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css); */
 /****************************/
 /** Reset **/
 /****************************/
