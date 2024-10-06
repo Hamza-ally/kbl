@@ -78,18 +78,7 @@
     <div class="form-container">
         <h2>Create Ticket</h2>
         <form action="#" method="POST">
-            <!-- Customer Name -->
-            <div class="form-group">
-                <label for="customer_name">Customer Name</label>
-                <input type="text" id="customer_name" name="customer_name" placeholder="Enter customer name" required>
-            </div>
-
-            <!-- Customer ID -->
-            <div class="form-group">
-                <label for="customer_id">Customer ID</label>
-                <input type="text" id="customer_id" name="customer_id" placeholder="Enter customer ID" required>
-            </div>
-
+           
             <!-- Ticket ID -->
             <div class="form-group">
                 <label for="ticket_id">Ticket ID</label>
@@ -108,8 +97,8 @@
 
             <!-- Address -->
             <div class="form-group">
-                <label for="address">Customer Address</label>
-                <textarea id="address" name="address" rows="4" placeholder="Enter customer address" required></textarea>
+                <label for="address">Ticket Adress</label>
+                <textarea id="address" name="address" rows="4" placeholder="Enter Ticket Address" required></textarea>
             </div>
 
             <!-- Assign To -->
