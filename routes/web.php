@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\CustomerController;
+use App\Http\Controllers\Admin\TicketController;
 use App\Http\Controllers\Admin\UsersController;
 use App\Http\Controllers\GlobalController;
 use Illuminate\Support\Facades\Auth;
@@ -27,7 +28,7 @@ Route::middleware([
             Route::name('admin.')->group(function () {
 
                 Route::get('/dashboard', function () {
-                    return view('admin/dashboard'); //towards admin dashboard 
+                    return view('admin/dashboard'); //towards admin dashboard
                 })->name('dashboard');
 
                 Route::prefix('users')->group(function () {
@@ -40,6 +41,15 @@ Route::middleware([
                             Route::get('/edit/{id}', 'edit')->name('edit');
                             Route::post('/edit', 'update')->name('edit');
 
+                        });
+                    });
+                });
+
+                Route::prefix('tickets')->group(function () {
+                    Route::name('tickets.')->group(function () {
+                        Route::controller(TicketController::class)->group(function () {
+                            Route::get('/create', 'create')->name('create');
+                            Route::post('/create', 'store')->name('create');
                         });
                     });
                 });
@@ -77,7 +87,7 @@ Route::middleware([
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Umer Routes
 Route::get('/edashboard', function () {
-    return view('employee/edashboard'); //towards employee dashboard 
+    return view('employee/edashboard'); //towards employee dashboard
 })->name('edashboard');
 
 Route::get('/streamticket', function () {
