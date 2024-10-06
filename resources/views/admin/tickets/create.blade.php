@@ -75,10 +75,11 @@
             background-color: #218838;
         }
     </style>
+
     <div class="form-container">
         <h2>Create Ticket</h2>
         <form action="#" method="POST">
-           
+
             <!-- Ticket ID -->
             <div class="form-group">
                 <label for="ticket_id">Ticket ID</label>

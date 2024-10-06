@@ -7,6 +7,10 @@ use App\Http\Controllers\GlobalController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/test', function () {
+    return view('layouts/base');
+});
+
 Route::get('/', function () {
     if (!Auth::check())
         return redirect()->route('login');
